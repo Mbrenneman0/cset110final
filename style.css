@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.preload *{
+    transition: none !important;
+}
+
+h1{
+    margin-bottom: 40px;
+
+    font-size: 6em;
+
+    color: white;
+    text-align: center;
+}
+
+h2{
+    margin-left: 50%;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+
+    font-size: 2.2em;
+    color: white;
+
+    border-bottom: 5px solid white;
+    display: inline-block;
+    transform: translateX(-50%);
+}
+
+h3{
+    padding-top: 5px;
+    height: 40px;
+
+    font-size: 1.7em;
+    text-align: center;
+}
+
+p{
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.section {
+    padding-top: 40px;
+    color: white;
+
+    background-color: #5c00c6;
+
+    scroll-margin-top: 120px;
+}
+
+header{
+    width: 100%;
+    height: 120px;
+    background-color: #5c00c6;
+
+    box-shadow: 0 5px 15px black;
+    z-index: 10;
+    position:fixed;
+}
+
+.fake-header{
+    /* takes up space at the top of the page to align the first section below the header */
+    width: 100%;
+    height: 120px;
+    background-color: #5c00c6;
+}
+
+#avatar img{
+    margin-top: 20px;
+    margin-left: 20px;
+
+    width:80px;
+    height: 80px;
+
+    border: 5px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 5px black;
+}
+
+#avatar:hover img{
+    transform: scale(110%);
+    border: 5px solid aqua;
+}
+
+.hdr{
+    padding-top: 20px;
+    padding-left: 20px;
+
+    color: white;
+    display: inline-block;
+}
+
+.hdr #hdr-name{
+    font-size: 3em;
+}
+
+.hdr #hdr-title{
+    padding-left: 120px;
+    font-size: 1.5em;
+}
+
+.nav-links {
+    margin-right: 20px;
+    padding-top: 20px;
+
+    float: right;
+}
+
+.nav-links a{
+    margin-left: 10px;
+    color: white;
+    font-size: 1.5em;
+}
+
+#about{
+    padding-bottom: 80px;
+    background-color: #5c00c6;
+}
+
+.about-container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+#about-image{
+    text-align: center;
+}
+
+#about-image img{
+    margin-right: 20%;
+    margin-left: auto;
+
+    border: 5px solid white;
+    box-shadow: 0 0 5px black;
+}
+
+#about-text{
+    padding: 0 10%;
+    
+}
+
+#projects{
+    background-color: white;
+}
+
+.container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+#projects h2, h3{
+    color: black;
+    border-color: black;
+}
+
+.example-box{
+    width: 300px;
+    height: 400px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+}
+
+.example-box:hover{
+    transform: translateY(4px);
+}
+
+.example-box:hover .example-hover{
+    opacity: 1;
+}
+
+.img-box{
+    height: 352px;
+    overflow: hidden;
+
+    background-color: black;
+
+    border-top: 1px solid black;
+    border-radius: 0 0 8px 8px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.img-box img{
+    width: 100%;
+    overflow: hidden;
+
+    border-radius: 0 0 9px 9px;
+}
+
+.example-hover{
+    margin-top: -50%;
+
+    padding: 15% 10px 10px 10px;
+
+    width: 100%;
+    height: 40%;
+
+    background-image: linear-gradient(to top, black, black, rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0));
+
+    opacity: 0;
+
+    transition-duration: 0.5s;
+}
+
+.description{
+    max-height: 78%;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #c6c6c6 #00000000;
+}
+
+.example-links{
+    padding-bottom: 10px;
+
+    position:absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.example-links a{
+    color: white;
+    transition: color 0.2s;
+}
+
+.example-links a:hover{
+    color: aqua;
+}
+
+#skills{
+    color: white;
+    background-color: #5c00c6;
+}
+
+#skills-container{
+    padding-top: 40px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill{
+    margin-top: 40px;
+
+    min-width: 200px;
+    text-align: center;
+
+    font-size: 2em;
+}
+
+#resume{
+    padding-bottom: 80px;
+}
+
+.iframe-container{
+    margin-top: 40px;
+    text-align: center;
+}
+
+iframe{
+    background-color: white;
+}
+
+#contact{
+    padding-bottom: 80px;
+}
+
+#contact-btn{
+    margin: 0 auto;
+    padding-top: 45px;
+
+    width: 300px;
+    height: 150px;
+
+    color: #5c00c6;
+    font-size: 2.5em;
+    text-align: center;
+
+    background-color: #c6c6c6;
+    border: 5px solid white;
+
+    display: block;
+}
+
+footer{
+    padding-top: 40px;
+
+    height: 120px;
+
+    background-color: #5c00c6;
+
+    box-shadow: 0 -5px 15px black;
+}
