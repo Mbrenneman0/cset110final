@@ -131,7 +131,7 @@ projects.push(new Example(
     "https://github.com/Mbrenneman0/cset105final",
     "https://mbrenneman0.github.io/cset105final/",
     "Grocery List",
-    "A classic game of Tic Tac Toe, demonstrating the use of a two dimensional array initialized from the Document Object Model. Also features a cool hover effect using a mouse listener in javascript.",
+    "A functional grocery list application using object oriented programming. Demonstrates a simple filtering technique to filter items on the list without removing them from memory and retaining the order of the full list.",
     "images/GroceryList.JPG"
 ));
 
@@ -139,7 +139,7 @@ projects.push(new Example(
     "https://github.com/Mbrenneman0/cset110weeklyassignment1",
     "https://mbrenneman0.github.io/cset110weeklyassignment1/",
     "Mustachio",
-    "A classic game of Tic Tac Toe, demonstrating the use of a two dimensional array initialized from the Document Object Model. Also features a cool hover effect using a mouse listener in javascript.",
+    "A clone of the Mustachio example website to practice HTML/CSS",
     "images/Mustachio.JPG"
 ));
 
@@ -147,8 +147,16 @@ projects.push(new Example(
     "https://github.com/Mbrenneman0/cset105final2",
     "https://mbrenneman0.github.io/cset105final2/",
     "Quiz",
-    "A classic game of Tic Tac Toe, demonstrating the use of a two dimensional array initialized from the Document Object Model. Also features a cool hover effect using a mouse listener in javascript.",
+    "A fun quiz for students of the CSET Program with Mr. C. Uses a class and object oriented programming to manage questions and answers",
     "images/quiz.JPG"
+));
+
+projects.push(new Example(
+    "https://github.com/Mbrenneman0/cset110final2",
+    "https://mbrenneman0.github.io/cset110final2/",
+    "Quiz",
+    "Demonstration of functional page layout with interactive elements.",
+    "images/Login.JPG"
 ));
 
 //after all Example objects are created, set the number of grid columns:
