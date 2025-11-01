@@ -154,7 +154,7 @@ projects.push(new Example(
 projects.push(new Example(
     "https://github.com/Mbrenneman0/cset110final2",
     "https://mbrenneman0.github.io/cset110final2/",
-    "Quiz",
+    "Log In Page",
     "Demonstration of functional page layout with interactive elements.",
     "images/Login.JPG"
 ));
